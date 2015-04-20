@@ -308,6 +308,11 @@
 			<artifactId>datatables-export-itext</artifactId>
 			<version>${dandelion.version}</version>
 		</dependency>
+		<dependency>
+	<groupId>org.apache.tomcat</groupId>
+	<artifactId>tomcat7-websocket</artifactId>
+	<version>7.0.47</version>
+</dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
