@@ -1,0 +1,10 @@
+---
+applications:
+- name: petclinic
+  path: : target/petclinic.war
+  memory: 1024M
+  instances: 1
+  host: xl-petclinic
+  domain: cfapps.io
+  env:
+    JAVA_HOME: "/home/vcap/app/.java-buildpack/open_jdk_jre"
