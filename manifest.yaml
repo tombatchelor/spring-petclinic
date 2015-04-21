@@ -5,4 +5,6 @@ instances: 1
 applications:
 - name: petclinic
   host: xl-petclinic
-  path: .target/petclinic.war
+  path: ./target/petclinic.war
+  env:
+    version: 1.7.0
