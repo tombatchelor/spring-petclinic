@@ -37,8 +37,8 @@ public class Person extends BaseEntity {
     protected String lastName;
 
     public Person () {
-        firstName="Jeff";
         super();
+        firstName="Jeff";
     }
 
     public String getFirstName() {
