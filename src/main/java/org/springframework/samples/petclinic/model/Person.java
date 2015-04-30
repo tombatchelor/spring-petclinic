@@ -28,7 +28,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 @MappedSuperclass
 public class Person extends BaseEntity {
 
-    @Column(name = "first_name2")
+    @Column(name = "first_name")
     @NotEmpty
     protected String firstName;
 
@@ -37,7 +37,8 @@ public class Person extends BaseEntity {
     protected String lastName;
 
     public String getFirstName() {
-        return this.firstName;
+        //return this.firstName;
+        return null;
     }
 
     public void setFirstName(String firstName) {
